@@ -21,6 +21,6 @@ function guestBtn3(){
     guestScore.textContent = Number(guestScore.textContent) + 3
 }
 function reset(){
-    guestScore.textContent = 0
-    homeScore.textContent = 0
+    guestScore.innerText = 0
+    homeScore.innerText = 0
 }
